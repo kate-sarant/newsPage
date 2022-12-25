@@ -1,0 +1,273 @@
+
+
+header{
+  margin: 23px;
+  font-family: comic;
+
+}
+#top_btn{
+  position: fixed;
+  right: 59px;
+  width: 45px;
+  height: 45px;
+  border-radius: 10%;
+  transition: 1.8s;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #33333369;
+  z-index: 300;
+  top: 116px;
+  right: 9%;
+}
+
+
+
+/* .scroll_news{
+  display: flex;
+}
+.scroll_news em{
+  margin:1%;
+} */
+/* ======== weather ======  */
+
+div.weather{
+  background-color: #ccc;
+  border-radius: 12px;
+  height: 110px;
+  display: inline-block;
+}
+ img.icon{
+   width: 125px;
+   position: relative;
+right: 14px;
+ }
+div.temp_icon_weather{
+  position: relative;
+      top: -102px;
+      left: 95px;
+  }
+
+h6.city{
+  padding: 5%;
+letter-spacing: 2px;
+font-size: 22px;
+}
+div.temp_icon_weather div.temp{
+margin-left: 13px;
+font-size: 22px;
+position: relative;
+    top: 89px;
+    right: 80px;
+}
+
+/* ==== news scroll ==== */
+.scroll_news{
+  background-color: red;
+}
+
+
+@keyframes slide-left {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(-300%);
+            transform: translateX(-300%);
+  }
+
+}
+
+
+/* ================== menu navigation ==============*/
+ul.menu-navigator{
+
+    display:flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    box-sizing: border-box;
+    place-content: center space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+
+}
+/* --------drop down menu starts----------- */
+
+
+
+/* Navbar container */
+div.navbar {
+  background-color: #333;
+  font-family: comic;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border-radius: 12px;
+  text-transform:uppercase;
+
+}
+
+/* Links inside the navbar */
+div.navbar a {
+  float: left;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+    margin-right: 22px;
+   outline: none;
+    border: none;
+  background: none;
+  /* position: relative;
+  right: 36vw; */
+
+}
+
+button.dropbtn{
+  outline: none;
+   border: none;
+ background: none;
+ color: white;
+ font-size: 20px;
+  text-transform: uppercase;
+  /* position: relative;
+  right: 36vw; */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover ,.dropbtn:hover {
+  color:#ccc;
+
+
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333333a6;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 71px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 24px;
+    text-transform: capitalize;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #2c2525c9;
+}
+.fa-2x {
+    font-size: 2.7em;
+}
+div.icon_home{
+  margin: 12px;
+position: relative;
+top: 56px;
+}
+
+div.social{
+  float: right;
+position: relative;
+top: 5px;
+
+}
+
+div.social a{
+  margin:12px;
+}
+
+hr:not([size]) {
+    height: 2px;
+}
+
+div.label{
+
+  margin-bottom: 12%;
+  align-items: center;
+  display: flex;
+  /* align-content: space-around; */
+  justify-content: center;
+
+}
+
+
+div.date_and_time{
+  margin:0 auto;
+
+}
+i.fa.fa-clock-o{
+  font-size:24px
+}
+/* logo img top header */
+div.label img{
+  max-width: 100%;
+    border-radius: 12px;
+    width: 95vw;
+    position: relative;
+    top: 56px;
+    left: 90px;
+    border-radius: 85%;
+        width: 29vw;
+}
+
+#button_menulist{
+  width:5rem;
+  display: none;
+}
+.menu_item:last-child{
+    margin-right: 7%;
+}
+@media only screen and (max-width:868px){
+
+#button_menulist{
+  width: 8vw;
+  display: block;
+}
+div.social {
+    float: right;
+    position: relative;
+    top: -48px;
+}
+.menu_item{
+  display:none;
+}
+
+.fa-2x {
+    font-size: 2em;
+}
+div.label img{
+  max-width: 100%;
+    border-radius: 12px;
+    width: 95vw;
+    position: relative;
+    top: 56px;
+    left: 90px;
+    border-radius: 85%;
+
+}
+
+}
